@@ -1,0 +1,90 @@
+/* 
+  GENERAL
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 80%;
+  max-width: 1200px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+.header-top, .jumbotron, footer{
+  margin-bottom: 30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* 
+  HEADER
+*/
+.header-top{
+  height: 130px;
+  background-color: #E579E6;
+}
+
+.jumbotron{
+  height: 450px;
+  background-color: #E1D77A;
+}
+
+
+
+
+/* 
+  MAIN
+*/
+
+.main-top{
+  height: 80px;
+  background-color: #ABCFE6;
+}
+
+.contain-col{
+  background-color: #0086FF;
+  padding: 25px 0;
+  margin-bottom: 10px;
+}
+
+.col{
+  float: left;
+  height: 550px;
+}
+
+.contain-col aside{
+  width: 20%;
+  background-color: #ABCFE6;
+}
+
+.col-centre{
+  width: 57%;
+  margin: 0 1.5%;
+  background-color: #ABCFE6;
+}
+
+
+
+
+/* 
+  FOOTER
+*/
+footer{
+  height: 60px;
+  background-color: #8800FF;
+}
