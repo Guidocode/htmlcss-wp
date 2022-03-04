@@ -20,7 +20,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.header-top, .jumbotron, footer{
+.header-top, .jumbotron{
   margin-bottom: 30px;
 }
 
@@ -137,6 +137,7 @@ nav ul li a:hover{
 
 .col p{
   color: #A3A4A4;
+  padding: 10px 0;
 }
 
 .contain-col aside{
@@ -175,5 +176,14 @@ nav ul li a:hover{
 */
 footer{
   height: 60px;
-  background-color: #8800FF;
+}
+
+footer div{
+  text-align: center;
+}
+
+footer span::after{
+  content: '\2665';
+  color: red;
+  font-size: 1.7rem;
 }
