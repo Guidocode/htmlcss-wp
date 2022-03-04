@@ -125,6 +125,7 @@ nav ul li a:hover{
 }
 
 
+/* CONTENITORE COLONNE  */
 .contain-col{
   padding: 25px 0;
   margin-bottom: 10px;
@@ -147,7 +148,7 @@ nav ul li a:hover{
   margin-bottom: 20px;
 }
 
-.col-center{
+.contain-col section.col-center{
   width: 57%;
   margin: 0 1.5%;
 }
@@ -162,7 +163,7 @@ nav ul li a:hover{
 }
 
 .img-right{
-  background-image: url(../img/img-2.jpg);
+  background-image: url(../img/img-3.jpg);
 }
 
 
