@@ -12,8 +12,7 @@
   max-width: 1200px;
   min-width: 600px;
   margin: 0 auto;
-  font-family: 'Great Vibes', cursive;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-top, .jumbotron, footer{
@@ -67,8 +66,35 @@ nav ul li a:hover{
 }
 
 .jumbotron{
-  height: 450px;
-  background-color: #E1D77A;
+  height: 490px;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+}
+
+.layover{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.jumbotron .text{
+  padding-top: 26%;
+  padding-left: 50px;
+}
+
+.jumbotron .text h3{
+  font-size: 2rem;
+}
+
+.jumbotron .text *{
+  width: 55%;
+}
+
+.jumbotron .text p::after{
+  content: '...';
 }
 
 
