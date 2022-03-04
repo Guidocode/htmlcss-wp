@@ -7,6 +7,11 @@
   box-sizing: border-box;
 }
 
+
+
+/* 
+  UTILITIES
+*/
 .container{
   width: 80%;
   max-width: 1200px;
@@ -29,6 +34,17 @@ a{
   clear: both;
 }
 
+.bg-style{
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.layover{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
 
 
 
@@ -68,16 +84,7 @@ nav ul li a:hover{
 .jumbotron{
   height: 490px;
   background-image: url(../img/banner.jpg);
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  overflow: hidden;
   color: white;
-}
-
-.layover{
-  background-color: rgba(0, 0, 0, 0.2);
-  height: 100%;
 }
 
 .jumbotron .text{
@@ -119,26 +126,45 @@ nav ul li a:hover{
 
 
 .contain-col{
-  background-color: #0086FF;
   padding: 25px 0;
   margin-bottom: 10px;
 }
 
 .col{
   float: left;
-  height: 550px;
+}
+
+.col p{
+  color: #A3A4A4;
 }
 
 .contain-col aside{
   width: 20%;
-  background-color: #ABCFE6;
 }
 
-.col-centre{
+.contain-col div{
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.col-center{
   width: 57%;
   margin: 0 1.5%;
-  background-color: #ABCFE6;
 }
+
+
+.img-left{
+  background-image: url(../img/img-1.jpg);
+}
+
+.img-center{
+  background-image: url(../img/banner-2.jpg);
+}
+
+.img-right{
+  background-image: url(../img/img-2.jpg);
+}
+
 
 
 
